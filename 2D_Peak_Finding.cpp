@@ -1,4 +1,15 @@
-﻿#include <iostream>
+﻿/*
+Algorithm for 2 dimensional peak finding
+
+1. choose the middle column arr[i][j/2]
+2. find the global maximum(G) in column arr[i][j/2] for some i
+3. if G < arr[i][j/2-1] then repeat steps 1 and 2 (recurse) to left of the array
+4. if G > arr[i][j/2-1] then recurse to the right of the array
+5. else G is a 2-D PEAK
+*/
+
+
+#include <iostream>
 #include <string>
 #include <array>
 using namespace std;
