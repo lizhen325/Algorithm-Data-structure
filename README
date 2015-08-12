@@ -1,30 +1,9 @@
-1D Peak Finding
-Objective
-Given an array A with n elements, ﬁnd the index i of the peak element A[i] where A[i] ≥ A[i − 1]
-and A[i] ≥ A[i + 1]. For elements on the boundaries of the array, the element only needs to be
-greater than or equal to its lone neighbor to be considered a peak. Or, say A[−1] = A[n] = ∞.
-Algorithm
-Given an array A with n elements:
-• Take the middle element of A, A[n/2], and compare that element to its neighbors
-• If the middle element is greater than or equal to its neighbors, then by deﬁnition, that element is a peak element. 
-Return its index n/2.
-• Else, if the element to the left is greater than the middle element, then recurse and use this
-algorithm on the left half of the array, not including the middle element.
-• Else, the element to the right must be greater than the middle element. Recurse and use this
-algorithm on the right half of the array, not including the middle element.
+MIT Open course for algorithm
 
+01. Algorithmic thinking, peak finding
 
-Runtime Analysis
-When we recurse, we reduce size n array into size n/2
-array in O(1) time (comparison of middle element to neighbors).
-Show recursion in the form of “Runtime of original problem” =“Runtime of reduced problem” + “Time taken to reduce problem”. 
-Then use substitution to keep reducing the recursion.
+02. Models of Computation, Document Distance
 
-T(n) = T(n/2) + c               (1)
-T(n) = T(n/4) + c + c           (2)
-T(n) = T(n/8) + c + c + c       (3)
-T(n) = T(n/2k) + ck             (4)
-Substitute k = log2 n           (5)
-T(n) = T(n/2log2 n) + c log2 n  (6)
-  = T(1) + c log2 n             (7)
-  = O(log n)                    (8)
+03. Insertion Sort, Merge Sort
+
+04. Heaps and Heaps sort
