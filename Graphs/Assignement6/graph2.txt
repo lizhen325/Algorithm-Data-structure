@@ -1,0 +1,28 @@
+#this is a text file with a simple graph in it
+#The nodes are:
+Node A
+Node B
+Node C
+Node D
+Node E
+#The cost from-to are:
+A B 1
+A C 20
+A D 3
+A E 40
+B A 6
+B C 7
+B D 9
+B E 1
+C A 60
+C B 6
+C D 2
+C E 5
+D A 1
+D B 6
+D C 4
+D E 8
+E A 7
+E B 3
+E C 5
+E D 8

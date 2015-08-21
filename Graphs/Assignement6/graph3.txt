@@ -1,0 +1,103 @@
+#this is a text file with a simple graph in it
+#The nodes are:
+Node A
+Node B
+Node C
+Node D
+Node E
+Node F
+Node G
+Node H
+Node I
+Node J
+#The cost from-to are:
+A B 1
+A C 2
+A D 3
+A E 4
+A F 5
+A G 6
+A H 7
+A I 8
+A J 9
+B A 2
+B C 1
+B D 2
+B E 3
+B F 4
+B G 5
+B H 6
+B I 7
+B J 8
+C A 9
+C B 1
+C D 2
+C E 3
+C F 4
+C G 5
+C H 6
+C I 7
+C J 8
+D A 9
+D B 1
+D C 2
+D E 3
+D F 4
+D G 5
+D H 6
+D I 7
+D J 8
+E A 9
+E B 1
+E C 2
+E D 3
+E F 4
+E G 5
+E H 6
+E I 7
+E J 8
+F A 9
+F B 1
+F C 2
+F D 3
+F E 4
+F G 5
+F H 6
+F I 7
+F J 8
+G A 9
+G B 1
+G C 2
+G D 3
+G E 4
+G F 5
+G H 6
+G I 7
+G J 8
+H A 9
+H B 1
+H C 2
+H D 3
+H E 4
+H F 5
+H G 6
+H I 7
+H J 8
+I A 9
+I B 1
+I C 2
+I D 3
+I E 4
+I F 5
+I G 6
+I H 7
+I J 8
+J A 9
+J B 1
+J C 2
+J D 3
+J E 4
+J F 5
+J G 6
+J H 7
+J I 8
